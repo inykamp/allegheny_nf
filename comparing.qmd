@@ -44,20 +44,20 @@ matrix_df <- matrix_df[-c(4:10),]
 #make a custom color pallet #eb4034 (redish) #b0af9e(grey)
 
 # ORIGINAL
-groupColors <- c( "#1d4220", # conifer 
-                 "#fc9d03", # grassland
+groupColors <- c(# "#1d4220", # conifer 
+                 #"#fc9d03", # grassland
                  "#56bf5f", # hardwood
                  "#397d3f", # hardwood-conifer 
                  "#7db7c7", # riparian 
-                 "#f5e942", # cur ag
-                 "#1d4220", # cur conifer
-                 "#397d3f", # cur hdw-con
-                 "#b0af9e", # developed
-                 "#eb4034", # exotics
-                 "#fc9d03", # grassland
                  "#56bf5f", # hardwood
-                 "#7db7c7",
-                 "#6e4f1e"# shrubland
+                 "#397d3f", # cur hdw-con
+                 "#1d4220", # cur conifer
+                 "#b0af9e", # developed
+                 "#f5e942", # cur ag
+                 "#eb4034", # exotics
+                 #"#fc9d03", # grassland
+                 "#7db7c7" #cur riparian
+                 #"#6e4f1e"# shrubland
                  
 
 )

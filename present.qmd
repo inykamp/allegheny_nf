@@ -23,7 +23,7 @@ NEED TO FILL THIS IN
 
 <br>
 
-![](images/evt.jpg){width="100%"}
+![](images/evt.png){width="100%"}
 
 <br>
 

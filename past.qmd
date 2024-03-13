@@ -94,7 +94,7 @@ fireChart
 
 ## Top Historical Fire Regimes
 
-![](images/mfri.png){width="100%"}
+![](images/mfri.jpg){width="100%"}
 
 <br>
 
