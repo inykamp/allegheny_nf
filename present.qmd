@@ -17,7 +17,13 @@ LANDFIRE's [Existing Vegetation Type, Cover and Height](https://landfire.gov/veg
 
 ## Summary
 
-NEED TO FILL THIS IN
+Currently, nearly 50% of the Allegheny National Forest is dominated by the Appalachian Northern Hardwood Forest, followed by nearly 25% of the area being dominated by Appalachian (Hemlock-)Northern Hardwood Forest. 
+
+These biophysical settings are differentiated by the mixture of conifer & hardwood within the Appalachian (Hemlock-)Northern Hardwood Forest and dominance of hardwoods within the Appalachian Northern Hardwood Forest.
+
+This existing vegetation cover is dominated by 70-79% tree cover, followed by 60-69% tree cover dominating 30% and 25% of the landscape respectively.
+
+45% of existing vegetation heights are around 20 - 25 m with nearly another 40% of vegetation heights just below that at 15-20 meters. 
 
 ## Most Prevalent Existing Vegetation Types
 
@@ -35,14 +41,14 @@ evtname <- read.csv(file = "data/evt_aoi_attributes.csv") %>%
   summarize(ACRES = sum(ACRES),
             REL_PERCENT = sum(REL_PERCENT)) %>%
   arrange(desc(REL_PERCENT)) %>%
-  top_n(n = 10, wt = REL_PERCENT)
+  top_n(n = 6, wt = REL_PERCENT)
 
 # plot
 evtChart <-
   ggplot(data = evtname, aes(x = EVT_NAME, y = REL_PERCENT)) +
   geom_bar(stat = "identity") +
   labs(
-    title = "Top 10 Existing Vegetation Types",
+    title = "Top 6 Existing Vegetation Types",
     caption = "Data from landfire.gov",
     x = "",
     y = "Percent of landscape") +

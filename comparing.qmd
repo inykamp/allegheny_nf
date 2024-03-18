@@ -24,7 +24,10 @@ Using LANDFIRE’s BpS products, we explore two different ways to visualize past
 
 ### Summary
 
-NEED TO FILL THIS IN
+Hardwoods continue to dominate through the Allegheny National Forest shrinking down from 575,000 acres to 390,000 acres, and gave way to 
+majority of the current Conifer-Hardwood Forest, Conifer Forest, Developed land, Agricultural, and Exotics. 
+
+Past Riparian Habitat has dwindled from about 69,000 to 15,000 acres, with the past Riparian habitat breaking off into many differing vegetation types. 
 
 *Note: number presented when hovering equals acres.*
 
@@ -94,10 +97,11 @@ htmlwidgets::saveWidget(chord,
 
 ## Succession classes for three most dominant BpSs
 
-NEED TO FILL THIS IN
+Appalachian (Hemlock-)Northern Hardwood Forest was primarily sucession class D, but currently is split between class B & C.
 
+Central Appalachian Dry Oak-Pine Forest was primarily within class D in the past but today, it is primarily within class C. 
 
-
+Central Interior and Appalachian Riparian Systems trended towards class D, but currently are spread throughout succession classes, primarily C and B.
 
 ```{r scls chart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=6}
 
