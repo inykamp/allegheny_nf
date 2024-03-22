@@ -33,7 +33,7 @@ Past Riparian Habitat has dwindled from about 69,000 to 15,000 acres, with the p
 
 ```{r chord, echo=FALSE, message=FALSE, warning=FALSE, include=FALSE}
 # read in data
-chord_df <- read_csv("data/bps2evt_chord.csv")
+chord_df <- read_csv("data/bps2evt_chord1.csv")
 #view(histFireGVchord)
 
 #convert to matrix
