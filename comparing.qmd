@@ -24,8 +24,7 @@ Using LANDFIRE’s BpS products, we explore two different ways to visualize past
 
 ### Summary
 
-Hardwoods continue to dominate through the Allegheny National Forest shrinking down from 575,000 acres to 390,000 acres, and gave way to 
-majority of the current Conifer-Hardwood Forest, Conifer Forest, Developed land, Agricultural, and Exotics. 
+Hardwoods continue to dominate through the Allegheny National Forest shrinking down from 575,000 acres to 390,000 acres, and gave way to majority of the current Conifer-Hardwood Forest, Conifer Forest, Developed land, Agricultural, and Exotics. 
 
 Past Riparian Habitat has dwindled from about 69,000 to 15,000 acres, with the past Riparian habitat breaking off into many differing vegetation types. 
 
@@ -97,11 +96,11 @@ htmlwidgets::saveWidget(chord,
 
 ## Succession classes for three most dominant BpSs
 
-Appalachian (Hemlock-)Northern Hardwood Forest was primarily sucession class D, but currently is split between class B & C.
+Appalachian (Hemlock-)Northern Hardwood Forest was primarily dominated by succession class D, representing late development trees with 71 - 100% canopy cover and 25 - 50 meters in height. Currently, these forests are split between succession classes B & C, representing trees with 41 - 70 % canopy cover at 5 - 75 m high. Indicitive species of this forest type include: Tuliptree (*Liriodendron tulipifera*), Red maple (*Acer rubrum*), America beech (*Fagus grandifolia*), and Eastern Hemlock (*Tsuga canadensis*).
 
-Central Appalachian Dry Oak-Pine Forest was primarily within class D in the past but today, it is primarily within class C. 
+Central Appalachian Dry Oak-Pine Forest was primarily within class D, representing late development trees with 25 - 50 meter height, ranging from 31-80 % canopy cover within these habitats. Today, there is a shift from this class D & E, towards the upper layer being dominated by class C, representing mid development trees 10 - 25 meters high with 31 - 80 % canopy cover. Species that indicate this forest type include: Chestnut oak (*Quercus prinus*), American chestnut (*Castanea dentata*), White oak (*Quercus alba*), and Red oak (*Quercus rubra*).
 
-Central Interior and Appalachian Riparian Systems trended towards class D, but currently are spread throughout succession classes, primarily C and B.
+Central Interior and Appalachian Riparian Systems of the past were spread across succession classes, but currently reside primarily within classes C & B, completely losing the late development succession forests of the past. These classes are mid development classes representing trees 10 - 25 meters high. Indicator species of this habitat include: American sycamore (*Platanus occidentalis*), River birch (*Betula nigra*), Boxelder (*Acer negundo*), and Silver maple (*Acer saccharinum*).
 
 ```{r scls chart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=6}
 
